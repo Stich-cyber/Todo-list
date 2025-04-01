@@ -1,0 +1,118 @@
+* {
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+h1 {
+  font-weight: 588;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 48px;
+}
+form {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+}
+form > input[type="text"] {
+  border: 1px solid #6c63ff;
+  width: 595px;
+  padding: 11px 16px;
+  border-radius: 5px;
+}
+form input::placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #c3c1e5;
+}
+form i:nth-child(2) {
+  position: relative;
+  top: 0;
+  color: #6c63ff;
+  right: 50px;
+}
+form > button {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 8%;
+  text-transform: uppercase;
+  color: #f7f7f7;
+  padding: 10px;
+  background-color: #6c63ff;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+form i:last-child {
+  background-color: #6c63ff;
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+  font-size: 22px;
+}
+.item {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+li {
+  align-items: center;
+  justify-content: space-between;
+  width: 520px;
+  border-bottom: 1px solid #6c63ff;
+  padding: 17px 0px;
+  transform: translatex(-100px);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+.line-through {
+  text-decoration: line-through;
+}
+p:hover {
+  cursor: pointer;
+}
+.sun {
+  background-color: #6c63ff;
+  width: 38px;
+  height: 38px;
+  border-radius: 5px;
+  padding: 8px;
+  display: none;
+}
+#moon {
+  background-color: #6c63ff;
+  padding: 8px;
+  color: white;
+  width: 38px;
+  height: 38px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
