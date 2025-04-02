@@ -88,3 +88,4 @@ document.querySelector("#search-icon").addEventListener("click", () => {
   }
 });
 loadTasks();
+//salom
